@@ -1,0 +1,28 @@
+.player-wrapper {
+  animation: fadein 1000ms ease-out;
+  animation-iteration-count: 1;
+  //background: url("/img/player-background.png") no-repeat 0 100%;
+  background-size: cover;
+  margin-right: 20px;
+}
+
+
+@keyframes fadein {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.player-track {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.player-status {
+  position: absolute;
+  height: 40px;
+  animation: fadein 1000ms ease-out;
+  animation-iteration-count: 1;
+  background: url("../img/player-background.png") no-repeat 0 100%;
+  background-size: cover;
+}

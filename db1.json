@@ -1,0 +1,440 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "questions": [
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "http://www.novak.su/test/musics/accordion.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "https://s5.cdn.teleprogramma.pro/wp-content/uploads/2018/07/dc406eed71ff2726dbf458e9efb2f184.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Земфира",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://ontopofmusic.com/wp-content/uploads/2014/11/KISS.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Kiss",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Harold_Faltermeyer.jpg/267px-Harold_Faltermeyer.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Harold Faltermeyer",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все песни в жанре R'n'B",
+      "genre": "pop",
+      "answers": [
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "rock"
+        },
+        {
+          "src": "/musics/dance.mp3",
+          "genre": "dance"
+        },
+        {
+          "src": "/musics/pop1.mp3",
+          "genre": "pop"
+        },
+        {
+          "src": "/musics/pop2.mp3",
+          "genre": "pop"
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "/musics/pop2.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "https://s5.cdn.teleprogramma.pro/wp-content/uploads/2018/07/dc406eed71ff2726dbf458e9efb2f184.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Земфира",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://ontopofmusic.com/wp-content/uploads/2014/11/KISS.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Kiss",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Harold_Faltermeyer.jpg/267px-Harold_Faltermeyer.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Harold Faltermeyer",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "/musics/chizh.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Пелагея",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Чиж",
+          "isCorrect": true
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Alex Fouly",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все песни в жанре R'n'B",
+      "genre": "rnb",
+      "answers": [
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "rnb"
+        },
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "blues"
+        },
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "rock"
+        },
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "rnb"
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все блюзовые песни",
+      "genre": "blues",
+      "answers": [
+        {
+          "src": "/musics/Slow_Tango.mp3",
+          "genre": "blues"
+        },
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "pop"
+        },
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "rock"
+        },
+        {
+          "src": "/musics/zemfira.mp3",
+          "genre": "rnb"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "id": 1,
+      "date": 1234567567898,
+      "time": 23,
+      "answers": 12
+    },
+    {
+      "id": 2,
+      "date": 1234567567898,
+      "time": 23,
+      "answers": 12
+    },
+    {
+      "date": 1234567567898,
+      "time": 23,
+      "answers": 12,
+      "id": 3
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536514312408,
+      "id": 7
+    },
+    {
+      "time": 114,
+      "answers": 7,
+      "date": 1536514334452,
+      "id": 8
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536514790624,
+      "id": 9
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536515289386,
+      "id": 10
+    },
+    {
+      "time": 116,
+      "answers": 6,
+      "date": 1536515385878,
+      "id": 11
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536515433212,
+      "id": 12
+    },
+    {
+      "time": 118,
+      "answers": 6,
+      "date": 1536515612410,
+      "id": 13
+    },
+    {
+      "time": 111,
+      "answers": 6,
+      "date": 1536515707073,
+      "id": 14
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516264986,
+      "id": 15
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516356087,
+      "id": 16
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516419514,
+      "id": 17
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516471783,
+      "id": 18
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516501541,
+      "id": 19
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516691810,
+      "id": 20
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516880195,
+      "id": 21
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516887212,
+      "id": 22
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516895285,
+      "id": 23
+    },
+    {
+      "time": 116,
+      "answers": 7,
+      "date": 1536516902894,
+      "id": 24
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516946413,
+      "id": 25
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516954991,
+      "id": 26
+    },
+    {
+      "time": 117,
+      "answers": 7,
+      "date": 1536516967525,
+      "id": 27
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536516975995,
+      "id": 28
+    },
+    {
+      "time": 115,
+      "answers": 6,
+      "date": 1536563618119,
+      "id": 29
+    },
+    {
+      "time": 117,
+      "answers": 6,
+      "date": 1536580472801,
+      "id": 30
+    },
+    {
+      "time": 119,
+      "answers": 6,
+      "date": 1536580689117,
+      "id": 31
+    },
+    {
+      "time": 106,
+      "answers": 7,
+      "date": 1536591890299,
+      "id": 32
+    },
+    {
+      "time": 114,
+      "answers": 7,
+      "date": 1536592060256,
+      "id": 33
+    },
+    {
+      "time": 103,
+      "answers": 8,
+      "date": 1536592099619,
+      "id": 34
+    },
+    {
+      "time": 114,
+      "answers": 8,
+      "date": 1536672478037,
+      "id": 35
+    },
+    {
+      "time": 112,
+      "answers": 8,
+      "date": 1536672600453,
+      "id": 36
+    },
+    {
+      "time": 97,
+      "answers": 8,
+      "date": 1536676506240,
+      "id": 37
+    },
+    {
+      "time": 106,
+      "answers": 8,
+      "date": 1536678588412,
+      "id": 38
+    },
+    {
+      "time": 102,
+      "answers": 9,
+      "date": 1536695783984,
+      "id": 39
+    },
+    {
+      "time": 85,
+      "answers": 8,
+      "date": 1536697429760,
+      "id": 40
+    },
+    {
+      "time": 60,
+      "answers": 9,
+      "date": 1537629064147,
+      "id": 41
+    },
+    {
+      "time": 111,
+      "answers": 9,
+      "date": 1537633470857,
+      "id": 42
+    },
+    {
+      "time": 57,
+      "answers": 9,
+      "date": 1537637376238,
+      "id": 43
+    },
+    {
+      "time": 73,
+      "answers": 8,
+      "date": 1537875672450,
+      "id": 44
+    }
+  ]
+}

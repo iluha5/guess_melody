@@ -1,0 +1,338 @@
+{
+  "questions": [
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "./musics/axelfouly.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "https://s5.cdn.teleprogramma.pro/wp-content/uploads/2018/07/dc406eed71ff2726dbf458e9efb2f184.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Земфира",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://ontopofmusic.com/wp-content/uploads/2014/11/KISS.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Kiss",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Harold_Faltermeyer.jpg/267px-Harold_Faltermeyer.jpg",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Harold Faltermeyer",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все песни в жанре Pop",
+      "genre": "pop",
+      "answers": [
+        {
+          "src": "./musics/rock001.mp3",
+          "genre": "rock"
+        },
+        {
+          "src": "./musics/dance001.mp3",
+          "genre": "dance"
+        },
+        {
+          "src": "./musics/pop001.mp3",
+          "genre": "pop"
+        },
+        {
+          "src": "./musics/pop002.mp3",
+          "genre": "pop"
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "./musics/poezd.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Чайф",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Пятница",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Чиж&Со",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "./musics/moby.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Пелагея",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Moby",
+          "isCorrect": true
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "ATB",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все песни в жанре Rock",
+      "genre": "rock",
+      "answers": [
+        {
+          "src": "./musics/pop003.mp3",
+          "genre": "pop"
+        },
+        {
+          "src": "./musics/blues003.mp3",
+          "genre": "blues"
+        },
+        {
+          "src": "./musics/rock002.mp3",
+          "genre": "rock"
+        },
+        {
+          "src": "./musics/rap003.mp3",
+          "genre": "rap"
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все песни в жанре Blues",
+      "genre": "blues",
+      "answers": [
+        {
+          "src": "./musics/blues004.mp3",
+          "genre": "blues"
+        },
+        {
+          "src": "./musics/pop004.mp3",
+          "genre": "pop"
+        },
+        {
+          "src": "./musics/rock004.mp3",
+          "genre": "rock"
+        },
+        {
+          "src": "./musics/blues005.mp3",
+          "genre": "blues"
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "./musics/enigma.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Enigma",
+          "isCorrect": true
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Gregorian",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Чиж&Со",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "./musics/chayf.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Чиж&Со",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Чайф",
+          "isCorrect": true
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Пятница",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "artist",
+      "question": "Кто исполняет эту песню?",
+      "src": "./musics/bob.mp3",
+      "answers": [
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Bob Marley",
+          "isCorrect": true
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "Ice Cube",
+          "isCorrect": false
+        },
+        {
+          "image": {
+            "url": "http://placehold.it/705x455",
+            "width": 300,
+            "height": 300
+          },
+          "title": "AC/DC",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "type": "genre",
+      "question": "Выберите все песни в жанре Dance",
+      "genre": "dance",
+      "answers": [
+        {
+          "src": "./musics/dance005.mp3",
+          "genre": "dance"
+        },
+        {
+          "src": "./musics/pop007.mp3",
+          "genre": "pop"
+        },
+        {
+          "src": "./musics/dance007.mp3",
+          "genre": "dance"
+        },
+        {
+          "src": "./musics/blues009.mp3",
+          "genre": "blues"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "id": 1,
+      "date": 1234567567898,
+      "time": 23,
+      "answers": 12
+    },
+    {
+      "id": 2,
+      "date": 1234567567898,
+      "time": 23,
+      "answers": 12
+    },
+    {
+      "date": 1234567567898,
+      "time": 23,
+      "answers": 12,
+      "id": 3
+    },
+    {
+      "time": 86,
+      "answers": 14,
+      "date": 1537891759807,
+      "id": 4
+    },
+    {
+      "time": 95,
+      "answers": 9,
+      "date": 1537891831815,
+      "id": 5
+    },
+    {
+      "time": 24,
+      "answers": 9,
+      "date": 1537892049005,
+      "id": 6
+    }
+  ]
+}
