@@ -22,3 +22,7 @@ $ npm install
 * Gulp
 * browser-sync 
 
+## Endpoints
+
+Примеры запросов описаны здесь <a href="https://github.com/iluha5/guess_melody/wiki/Endpoints">https://github.com/iluha5/guess_melody/wiki/Endpoints</a>
+
