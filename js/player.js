@@ -1,4 +1,3 @@
-// import {Howl} from "howler";
 
 const updateState = (element, player) => {
   element.querySelector(`.player-status`).style.width =
@@ -12,8 +11,6 @@ const syncState = (player, element) => {
 
 
 const switchState = (state, player, element, id) => {
-  // debugger;
-  // !player.playing()
   if (player.paused) {
     player.play();
     state.stopAnimation = window.animation.animate(
@@ -30,14 +27,12 @@ const switchState = (state, player, element, id) => {
 
 
 const destroyPlayer = (element, state) => {
-  // const player = element.querySelector(`audio`);
   const button = element.querySelector(`button`);
 
   if (state.stopAnimation) {
     state.stopAnimation();
   }
 
-  // player.src = null;
   button.onclick = null;
 
   element.innerHTML = ``;
@@ -48,7 +43,6 @@ const destroyPlayer = (element, state) => {
 
 
 window.initializePlayer = (element, file, autoplay = false, controllable = true) => {
-// debugger;
   let state = {};
   let listeners = {};
   let canplaythroughLaunched = false;
@@ -67,7 +61,6 @@ window.initializePlayer = (element, file, autoplay = false, controllable = true)
     }
 
     if (autoplay) {
-      // debugger;
       if (!canplaythroughLaunched) {
         switchState(state, player, content, listeners);
         canplaythroughLaunched = true;
@@ -76,7 +69,6 @@ window.initializePlayer = (element, file, autoplay = false, controllable = true)
   };
 
   player.src = file;
-  // debugger;
   element.appendChild(content);
   element.classList.toggle(`player--no-controls`, !controllable);
 

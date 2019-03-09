@@ -1,3 +1,5 @@
+////////////// Helper tool!
+
 function send(data, addr = `http://178.62.215.132:8083/questions`) {
 
   data.forEach((question) => {

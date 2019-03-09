@@ -84,7 +84,6 @@ const addToStats = (statistics, user) => {
 };
 
 const sortStats = (statistics) => {
-  // console.log(statArr);
   if (!Array.isArray(statistics)) {
     return -1;
   }

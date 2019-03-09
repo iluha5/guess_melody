@@ -21,7 +21,9 @@ class Application {
     this._model = new class extends Model {
       get urlRead() {
         // return `http://localhost:3000/questions`;
-        return `http://178.62.215.132:8083/questions`;
+        // return `http://178.62.215.132:8083/questions`;
+        return `http://142.93.129.161:8084/api/v1/questions`;
+
       }
     }();
 
@@ -34,7 +36,6 @@ class Application {
         this._gameData = gameData;
         this._picsUrls = [];
         this._tracksUrls = [];
-        // debugger;
         gameData.forEach((screenData) => {
           if (screenData.type === `artist`) {
             screenData.answers.forEach((image) => this._picsUrls.push(image.image.url));
@@ -45,7 +46,6 @@ class Application {
           }
         });
 
-        // return gameData;
       })
       .then(() => this._model.loadPics(this._picsUrls))
       .then(() => this._model.loadTracks(this._tracksUrls))
@@ -53,7 +53,6 @@ class Application {
       .then((adaptedGameData) => this.setup(adaptedGameData))
       .catch((err) => {
         window.console.error(err);
-        // window.alert(`Loading data error. Please try again!`);
       });
   }
 
@@ -72,7 +71,6 @@ class Application {
         this.showWelcome();
         break;
       case this.URLS.GAME:
-        // debugger;
         this.showGame(this._gameData);
         break;
       case this.URLS.GAME_OVER:
@@ -80,11 +78,13 @@ class Application {
           this._model = new class extends Model {
             get urlRead() {
               // return `http://localhost:3000/stats`;
-              return `http://178.62.215.132:8083/stats`;
+              // return `http://178.62.215.132:8083/stats`;
+              return `http://142.93.129.161:8084/api/v1/stats`;
             }
             get urlWrite() {
               // return `http://localhost:3000/stats`;
-              return `http://178.62.215.132:8083/stats`;
+              // return `http://178.62.215.132:8083/stats`;
+              return `http://142.93.129.161:8084/api/v1/stats`;
             }
           }();
 
