@@ -1,52 +1,24 @@
-# Личный проект «Угадай мелодию» [![Build status][travis-image]][travis-url]
+# Игра «Угадай мелодию». Учебный проект от HTMLAcademy.
 
-* Студент: [Антон Лобанов](https://up.htmlacademy.ru/ecmascript/2/user/399435).
-* Наставник: `Неизвестно`.
+Задача игры: за две минуты отгадать максимальное количество мелодий в двух режимах - по жанру или по исполнителю.
 
----
+## Установка
 
-_Не удаляйте и не изменяйте папки и файлы:_
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.travis.yml`, `package.json`._
+Сделайте форк репозитория. Выполните следующую команду 
 
----
-
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте форк
-
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
-
-<img width="769" alt="Press 'Fork'" src="https://cloud.githubusercontent.com/assets/259739/20264045/a1ddbf40-aa7a-11e6-9a1a-724a1c0123c8.png">
-
-Получится вот так:
-
-<img width="769" alt="Forked" src="https://cloud.githubusercontent.com/assets/259739/20264122/f63219a6-aa7a-11e6-945a-89818fc7c014.png">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
-
-<img width="769" alt="SSH" src="https://cloud.githubusercontent.com/assets/259739/20264180/42704126-aa7b-11e6-9ab4-73372b812a53.png">
-
-Клонировать репозиторий можно так:
-
-```
-git clone SSH-адрес_вашего_форка
+```sh
+$ npm install
 ```
 
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+Необходим установленный пакетный менеджер NPM
 
-#### 4. Начинайте обучение!
+## Превью
 
----
+Пример игры доступен по адресу: <a href="http://www.novak.su/test/melody">http://www.novak.su/test/melody</a>
 
-<a href="https://htmlacademy.ru/intensive/ecmascript"><img align="left" width="50" height="50" title="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/ecmascript/logo-for-github.svg"></a>
+## Основной стек
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Продвинутый JavaScript](https://htmlacademy.ru/intensive/ecmascript)» от [HTML Academy](https://htmlacademy.ru).
+* JS ES6 (Паттерн MPV)
+* Gulp
+* browser-sync 
 
-[travis-image]: https://travis-ci.org/htmlacademy-ecmascript/399435-guess-melody.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-ecmascript/399435-guess-melody
