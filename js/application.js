@@ -52,8 +52,9 @@ class Application {
       .then(() => this._adapter.getAdapted(this._gameData))
       .then((adaptedGameData) => this.setup(adaptedGameData))
       .catch((err) => {
-        window.console.error(err);
-      });
+        // window.console.error(err);
+        window.console.error(`Loading data error`, err);
+        window.alert(`Ошибка загрузки данных, пожалуйста, обновите страницу!`);      });
   }
 
   static setup(gameData) {
