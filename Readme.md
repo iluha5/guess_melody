@@ -1,28 +1,25 @@
-# Игра «Угадай мелодию». Учебный проект от HTMLAcademy.
+# The game «Guess Melody». Study project from HTMLAcademy.
 
-Задача игры: за две минуты отгадать максимальное количество мелодий в двух режимах - по жанру или по исполнителю.
+Goal of the game: you should guess the maximum numbers of melodies in two modes - by genre or by artist.
 
-## Установка
+## Install
 
-Сделайте форк репозитория. Выполните следующую команду 
+Make fork and clone of the repo. Execute the command:
 
 ```sh
 $ npm install
 ```
 
-Необходим установленный пакетный менеджер NPM
+## Demo
 
-## Превью
+Program demo: <a href="http://www.novak.su/test/melody">http://www.novak.su/test/melody</a>
 
-Пример игры доступен по адресу: <a href="http://www.novak.su/test/melody">http://www.novak.su/test/melody</a>
+## Stack
 
-## Основной стек
-
-* JS ES6 (Паттерн MPV)
-* Gulp
-* browser-sync 
+* JS ES6 (MVP pattern)
+* Gulp/browser-sync
 
 ## Endpoints
 
-Примеры запросов описаны здесь <a href="https://github.com/iluha5/guess_melody/wiki/Endpoints">https://github.com/iluha5/guess_melody/wiki/Endpoints</a>
+Endpoints requests description: <a href="https://github.com/iluha5/guess_melody/wiki/Endpoints">https://github.com/iluha5/guess_melody/wiki/Endpoints</a>
 
