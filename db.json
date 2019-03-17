@@ -318,19 +318,19 @@
     },
     {
       "time": 86,
-      "answers": 14,
+      "answers": 6,
       "date": 1537891759807,
       "id": 4
     },
     {
       "time": 95,
-      "answers": 9,
+      "answers": 5,
       "date": 1537891831815,
       "id": 5
     },
     {
       "time": 24,
-      "answers": 9,
+      "answers": 4,
       "date": 1537892049005,
       "id": 6
     },
@@ -339,6 +339,18 @@
       "answers": 9,
       "date": 1552084686634,
       "id": 7
+    },
+    {
+      "time": 47,
+      "answers": 8,
+      "date": 1552845243255,
+      "id": 8
+    },
+    {
+      "time": 36,
+      "answers": 8,
+      "date": 1552845430612,
+      "id": 9
     }
   ]
 }

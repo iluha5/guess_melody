@@ -1,4 +1,4 @@
-# The game «Guess Melody». Study project from HTMLAcademy.
+# Game «Guess Melody». Learning project from HTMLAcademy.
 
 Goal of the game: you should guess the maximum numbers of melodies in two modes - by genre or by artist.
 
@@ -9,6 +9,19 @@ Make fork and clone of the repo. Execute the command:
 ```sh
 $ npm install
 ```
+
+then execute:
+ 
+```sh
+$ npm run server
+```
+
+and
+
+```sh
+$ npm run start
+```
+
 
 ## Demo
 

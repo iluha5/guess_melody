@@ -20,9 +20,9 @@ class Application {
 
     this._model = new class extends Model {
       get urlRead() {
-        // return `http://localhost:3000/questions`;
+        return `http://localhost:3000/questions`;
         // return `http://178.62.215.132:8083/questions`;
-        return `http://142.93.129.161:8084/api/v1/questions`;
+        // return `http://142.93.129.161:8084/api/v1/questions`;
 
       }
     }();
@@ -78,14 +78,14 @@ class Application {
         if (this._gamePresenter.verdict === GLOBAL_CONST.USER_WINS) {
           this._model = new class extends Model {
             get urlRead() {
-              // return `http://localhost:3000/stats`;
+              return `http://localhost:3000/stats`;
               // return `http://178.62.215.132:8083/stats`;
-              return `http://142.93.129.161:8084/api/v1/stats`;
+              // return `http://142.93.129.161:8084/api/v1/stats`;
             }
             get urlWrite() {
-              // return `http://localhost:3000/stats`;
+              return `http://localhost:3000/stats`;
               // return `http://178.62.215.132:8083/stats`;
-              return `http://142.93.129.161:8084/api/v1/stats`;
+              // return `http://142.93.129.161:8084/api/v1/stats`;
             }
           }();
 

@@ -1,6 +1,7 @@
 ////////////// Helper tool!
+//`http://178.62.215.132:8083/questions`
 
-function send(data, addr = `http://178.62.215.132:8083/questions`) {
+function send(data, addr = `http://localhost:3000/questions`) {
 
   data.forEach((question) => {
     const url = addr;
@@ -331,4 +332,5 @@ const dataStats = [
 ];
 
 // send(data);
-send(dataStats, `http://178.62.215.132:8083/stats`);
+//http://178.62.215.132:8083/stats
+send(dataStats, `http://localhost:3000/stats`);
